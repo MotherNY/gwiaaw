@@ -1,0 +1,8 @@
+{
+	"name":"guess-who-is",
+	"description":"Website for the Guess Who Is An Award Winner DOT com.",
+	"version":"0.0.1","private":true,
+	"scripts":{"start":"node app.js","predeploy":"node build.js"},
+	"dependencies":{"express":"3.0.0rc3","ejs":"*","stylus":"*","smoosh":">=0.4.0","request":">=2.12.0","lodash":">=1.0.1"},
+	"devDependencies":{"smoosh":">=0.4.0","walkdir":">=0.0.5","semver":">=1.1.4"},
+	"engines":{"node":"0.8.x"},"subdomain":"guesswhois","domains":["guesswhoisanawardwinner.com","www.guesswhoisanawardwinner.com"]}

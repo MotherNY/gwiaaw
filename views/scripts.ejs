@@ -1,0 +1,5 @@
+<% if(env === 'production') { %>
+  <script data-main="/js/boot.prod" src="/js/require.min.js"></script>
+<% } else { %>
+  <script data-main="/js/boot" src="/js/require.min.js"></script>
+<% }%>

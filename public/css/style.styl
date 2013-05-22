@@ -1,0 +1,56 @@
+@import 'variables'
+@import 'normalize'
+
+*,
+*:after,
+*:before
+  -webkit-box-sizing: border-box
+  -moz-box-sizing: border-box
+  box-sizing: border-box
+
+*
+  -webkit-transition: all 0.3s ease
+  -moz-transition: all 0.3s ease
+  -o-transition: all 0.3s ease
+  transition: all 0.3s ease
+
+html, body
+  height 100%
+
+body
+  font-size: 100%
+  font-family: Helvetica, Arial, sans-serif
+  background #fffe01 url('/img/gradient.png') repeat-x top left scroll
+  color $black
+  text-align center
+
+img
+  max-width 100%
+
+p, li
+  font-size 1.6em
+  margin 5% 0
+  padding 0
+  font-family: Helvetica, Arial, sans-serif
+
+h1
+  font-size 3em
+  font-weight normal
+  line-height 1.2
+  font-family: Helvetica, Arial, sans-serif
+  color $black
+  text-align center
+
+h2
+  font-size 12em
+  font-weight 200
+  line-height 1.1
+  font-family: Helvetica, Arial, sans-serif
+  margin 0
+
+
+.maxwidthcenter
+  max-width 1024px
+  margin 0 auto
+
+@import 'responsive'
