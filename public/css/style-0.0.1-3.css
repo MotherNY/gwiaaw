@@ -1,7 +1,7 @@
 @font-face {
-  font-family: 'Brandon Bold';
-  src: url("/font/web/brandon_bld-webfont.eot");
-  src: url("/font/web/brandon_bld-webfont.eot?#iefix") format('embedded-opentype'), url("/font/web/brandon_bld-webfont.woff") format('woff'), url("/font/web/brandon_bld-webfont.ttf") format('truetype'), url("/font/web/brandon_bld-webfont.svg#brandon_grotesquebold") format('svg');
+  font-family: 'Blowfish';
+  src: url("/font/web/271C1D_0_0.eot");
+  src: url("/font/web/271C1D_0_0.eot?#iefix") format('embedded-opentype'), url("/font/web/271C1D_0_0.woff") format('woff'), url("/font/web/271C1D_0_0.ttf") format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -217,17 +217,24 @@ h2 {
   font-size: 12em;
   font-weight: 200;
   line-height: 1.4;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Blowfish', Helvetica, Arial, sans-serif;
   margin: 0;
+  color: #ffd60a;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#ffd60a), to(#fffe01));
+/* Chrome, Safari 4+ */
+  background-image: -webkit-linear-gradient(top, #ffd60a, #fffe01);
+/* Chrome 10-25, iOS 5+, Safari 5.1+ */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .maxwidthcenter {
   max-width: 1024px;
   margin: 0 auto;
 }
 @font-face {
-  font-family: 'Brandon Bold';
-  src: url("/font/web/brandon_bld-webfont.eot");
-  src: url("/font/web/brandon_bld-webfont.eot?#iefix") format('embedded-opentype'), url("/font/web/brandon_bld-webfont.woff") format('woff'), url("/font/web/brandon_bld-webfont.ttf") format('truetype'), url("/font/web/brandon_bld-webfont.svg#brandon_grotesquebold") format('svg');
+  font-family: 'Blowfish';
+  src: url("/font/web/271C1D_0_0.eot");
+  src: url("/font/web/271C1D_0_0.eot?#iefix") format('embedded-opentype'), url("/font/web/271C1D_0_0.woff") format('woff'), url("/font/web/271C1D_0_0.ttf") format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -240,10 +247,16 @@ h2 {
   body {
     font-size: 88%;
   }
+  h2 {
+    line-height: 1.1;
+  }
 }
 @media only screen and (max-width: 30em) {
   body {
     font-size: 80%;
+  }
+  h2 {
+    line-height: 1;
   }
 }
 @media only screen and (max-width: 20em) {
