@@ -1,7 +1,7 @@
 {
   "name": "guess-who-is",
   "description": "Website for the Guess Who Is An Award Winner DOT com.",
-  "version": "0.0.1-4",
+  "version": "0.0.1-5",
   "private": true,
   "scripts": {
     "start": "node app.js",
